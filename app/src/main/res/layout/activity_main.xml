@@ -23,13 +23,21 @@
         android:id="@+id/button"
         android:layout_width="309dp"
         android:layout_height="134dp"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
         android:layout_marginEnd="52dp"
+        android:layout_centerHorizontal="true"
         android:layout_marginBottom="436dp"
         android:text="TODO"
         android:onClick="TimeTable"
         android:textSize="50dp" />
 
+    <Button
+        android:id="@+id/hello"
+        android:text="@string/hello"
+        android:textSize="30sp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        />
 
 </RelativeLayout>
